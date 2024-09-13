@@ -1,9 +1,8 @@
 module main
 
-import os
 import time
 
-const max = 100000000
+const max = 10000000
 
 
 fn main() {
@@ -34,7 +33,7 @@ fn main() {
         // break
 
         // println("currentnumber" + current_number.str())
-        if(current_number != 0){
+        if current_number != 0{
         // print("egal a 0")
         primary_numbers.insert(primary_numbers.len, current_number)
 
